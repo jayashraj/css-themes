@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&family=Roboto&display=swap');
+
+body{
+    background-color:#0E7C7B;
+    font-family:Arial, "Sans Serif";
+    margin:0px;
+    padding:0px;
+}
+p{
+    font-family: "Roboto", "Sans Serif";
+    font-size:1.1em;
+}
+#content{
+    width:60%;
+    margin:auto;
+
+    background-color:#FFF8F0;
+    padding:5%;
+}
+#table-of-contents, .title{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Merriweather, "Sans Serif";
+    padding-top:10px;
+    text-align:center;
+    color:#A5243D;
+}
+ul{
+    /* removes the bullets which dont align with the text in center */
+    list-style-type: none;
+    /*useful for removing the indentation which is not removed by default*/
+    margin:0px;
+    padding:0px;
+    font-family: Merriweather, "Sans Serif";
+    text-align:center;
+}
+
+a {
+    color:#A5243D;
+}
+
+a:visited{
+    color:#17BEBB;
+}
+
+/* Postamble, WIP */
+
+#postamble{
+    width:60%;
+    margin:auto;
+
+    background-color:#51355A;
+    padding:5%;
+}
+.validation {
+    display:none;
+}
+
+/* Table */
+th {
+    
+    color:#A5243D;
+}
+table {
+    margin: 5% auto 5% auto;
+}
+.terminal{
+    background-color:#51355A;
+    color:#17BEBB;
+    font-size:1.2em;
+    padding:5%;
+    overflow:auto;
+	
+}
+
